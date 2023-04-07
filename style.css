@@ -7,8 +7,7 @@ body {
   background: #1E1E1E;
   overflow-x: hidden;
 }
-
-.large-white-text, .footer .text-shape-wrapper, .text-shape-wrapper, .page3 .btn-text-wrapper, .page1 {
+body .large-white-text, body .footer .text-shape-wrapper, body .text-shape-wrapper, body .page3 .btn-text-wrapper, body .page1 {
   font-weight: 600;
   font-size: 42px;
   line-height: 140%;
@@ -17,8 +16,7 @@ body {
   color: #FFFFFF;
   margin-bottom: 40px;
 }
-
-.small-white-text, .footer .footer-text, .page5 .icon-text-wrapper, .card2-wrapper .card2, .page2 .icon-text-wrapper, .wrapper {
+body .small-white-text, body .footer .footer-text, body .page5 .icon-text-wrapper, body .card2-wrapper .card2, body .page2 .icon-text-wrapper, body .wrapper {
   font-weight: 600;
   font-size: 24px;
   line-height: 140%;
@@ -26,8 +24,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
-.red-text, .wrapper .hero-table .bordered {
+body .red-text, body .wrapper .hero-table .bordered {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -36,8 +33,7 @@ body {
   text-transform: uppercase;
   color: #DB3138;
 }
-
-.text, .page5 .icon-text-wrapper, .page5 .arrow-text-wrapper, .card2-wrapper .card2, .page2, .page1 {
+body .text, body .page5 .icon-text-wrapper, body .page5 .arrow-text-wrapper, body .card2-wrapper .card2, body .page2, body .page1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -45,8 +41,7 @@ body {
   color: #FFFFFF;
   margin-top: 30px;
 }
-
-.white-text, .footer, .card2-wrapper .card2, .card-wrapper .card, .page1 {
+body .white-text, body .footer, body .card2-wrapper .card2, body .card-wrapper .card, body .page1 {
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -56,17 +51,16 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
-.wrapper {
+body .wrapper {
   background: url(./img/car.png);
 }
-.wrapper header {
+body .wrapper header {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 40px 100px;
 }
-.wrapper header .nav-items-wrapper {
+body .wrapper header .nav-items-wrapper {
   display: flex;
   list-style: none;
   gap: 40px;
@@ -77,7 +71,7 @@ body {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-.wrapper .hero {
+body .wrapper .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,38 +79,38 @@ body {
   margin-top: 100px;
   text-align: center;
 }
-.wrapper .hero .big-red-text {
+body .wrapper .hero .big-red-text {
   font-weight: 700;
   font-size: 150px;
   line-height: 125%;
   text-align: center;
   color: #DB3138;
 }
-.wrapper .big-white-text {
+body .wrapper .big-white-text {
   font-weight: 500;
   font-size: 40px;
   line-height: 120%;
   text-align: center;
   color: #FFFFFF;
 }
-.wrapper .red-bordered-text {
+body .wrapper .red-bordered-text {
   border: 1px solid #DB3138;
   padding: 15px 0px 15px 25px;
   background-color: #DB3138;
   margin-bottom: 40px;
   display: inline-block;
 }
-.wrapper .hero-table {
+body .wrapper .hero-table {
   display: flex;
   text-align: center;
 }
-.wrapper .hero-table .bordered {
+body .wrapper .hero-table .bordered {
   border: 1px solid #FFFFFF;
   padding: 50px 100px;
   opacity: 0.5;
   width: 350px;
 }
-.wrapper .hero-table .bordered .white-text, .wrapper .hero-table .bordered .footer, .wrapper .hero-table .bordered .card2-wrapper .card2, .card2-wrapper .wrapper .hero-table .bordered .card2, .wrapper .hero-table .bordered .card-wrapper .card, .card-wrapper .wrapper .hero-table .bordered .card, .wrapper .hero-table .bordered .page1 {
+body .wrapper .hero-table .bordered .white-text, body .wrapper .hero-table .bordered .footer, body .wrapper .hero-table .bordered .card2-wrapper .card2, body .card2-wrapper .wrapper .hero-table .bordered .card2, body .wrapper .hero-table .bordered .card-wrapper .card, body .card-wrapper .wrapper .hero-table .bordered .card, body .wrapper .hero-table .bordered .page1 {
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -126,26 +120,25 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
-.page1 {
+body .page1 {
   display: flex;
   margin: 100px 50px;
   gap: 24px;
 }
-.page1 .box-item-wrapper {
+body .page1 .box-item-wrapper {
   display: flex;
 }
-.page1 .box-item-wrapper .box-item2 {
+body .page1 .box-item-wrapper .box-item2 {
   margin-top: 110px;
 }
-.page1 .box-item-wrapper .gray-bordered-box {
+body .page1 .box-item-wrapper .gray-bordered-box {
   border: 1px solid #898989;
   padding: 31px 25px 0 25px;
   text-align: center;
   height: 177px;
   vertical-align: middle;
 }
-.page1 .box-item-wrapper .gray-bordered-box .red-text, .page1 .box-item-wrapper .gray-bordered-box .wrapper .hero-table .bordered, .wrapper .hero-table .page1 .box-item-wrapper .gray-bordered-box .bordered {
+body .page1 .box-item-wrapper .gray-bordered-box .red-text, body .page1 .box-item-wrapper .gray-bordered-box .wrapper .hero-table .bordered, body .wrapper .hero-table .page1 .box-item-wrapper .gray-bordered-box .bordered {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -154,18 +147,17 @@ body {
   text-transform: uppercase;
   color: #DB3138;
 }
-
-.card-wrapper {
+body .card-wrapper {
   display: flex;
   margin-bottom: 100px;
   gap: 40px;
   margin: 100px 70px;
 }
-.card-wrapper .card {
+body .card-wrapper .card {
   position: relative;
   text-align: center;
 }
-.card-wrapper .card .red-bg-text {
+body .card-wrapper .card .red-bg-text {
   position: absolute;
   border: 1px solid #DB3138;
   padding: 35px 20px 0px 20px;
@@ -174,45 +166,43 @@ body {
   top: 291px;
   left: 30px;
 }
-
-.page2 {
+body .page2 {
   margin: 50px 70px;
   display: flex;
   justify-content: space-between;
   gap: 70px;
 }
-.page2 .icon-text-wrapper {
+body .page2 .icon-text-wrapper {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-.page2 .shape-img {
+body .page2 .shape-img {
   margin: 20px 200px;
 }
-.page2 .arrow-text-wrapper {
+body .page2 .arrow-text-wrapper {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-
-.page3 .btn-text-wrapper {
+body .page3 .btn-text-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.page3 .btn-wrapper {
+body .page3 .btn-wrapper {
   display: flex;
   align-items: center;
   gap: 70px;
 }
-.page3 .btn-wrapper .red-bg {
+body .page3 .btn-wrapper .red-bg {
   border: none;
   padding: 20px 40px 10px 40px;
   text-align: center;
   background: #DB3138;
 }
-.page3 .btn-wrapper .text2 {
+body .page3 .btn-wrapper .text2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 140%;
@@ -220,72 +210,67 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
-.card2-wrapper {
+body .card2-wrapper {
   margin: 90px 30px 20px 30px;
   display: flex;
   gap: 10px;
   justify-content: center;
 }
-.card2-wrapper .card2 {
+body .card2-wrapper .card2 {
   border: 1px solid #898989;
   padding: 60px 40px 50px 40px;
   text-align: center;
   justify-content: center;
 }
-.card2-wrapper .card2 .red-bordered-text {
+body .card2-wrapper .card2 .red-bordered-text {
   border: 1px solid #DB3138;
   padding: 15px 0px 15px 25px;
   background-color: #DB3138;
   margin-bottom: 40px;
   display: inline-block;
 }
-
-.page5 {
+body .page5 {
   display: flex;
   justify-content: space-between;
   margin: 50px 20px;
   gap: 70px;
 }
-.page5 .arrow-text-wrapper {
+body .page5 .arrow-text-wrapper {
   display: flex;
   align-items: end;
   gap: 10px;
 }
-.page5 .shape-img {
+body .page5 .shape-img {
   margin: 20px 200px 0 200px;
 }
-.page5 .icon-text-wrapper {
+body .page5 .icon-text-wrapper {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.page5 .icon-text-wrapper .shape-img {
+body .page5 .icon-text-wrapper .shape-img {
   margin: 30px 0;
   padding-left: 200px;
   height: 15px;
 }
-
-.text-shape-wrapper {
+body .text-shape-wrapper {
   margin-top: 160px;
   text-align: center;
 }
-
-.shape-img2 {
+body .shape-img2 {
   height: 15px;
   margin: 0 0 40px 0;
 }
-
-.footer {
+body .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer .text-shape-wrapper {
+body .footer .text-shape-wrapper {
   margin-top: 160px;
   text-align: center;
 }
-.footer .input-wrapper .input-name {
+body .footer .input-wrapper .input-name {
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -297,7 +282,7 @@ body {
   margin-right: 20px;
   padding: 15px 30px 10px 25px;
 }
-.footer .input-wrapper .input-number {
+body .footer .input-wrapper .input-number {
   background: #141414;
   border: 1px solid #898989;
   font-weight: 600;
@@ -308,12 +293,12 @@ body {
   color: #898989;
   padding: 15px 30px 10px 25px;
 }
-.footer .contact-div {
+body .footer .contact-div {
   display: flex;
   align-items: start;
   gap: 90px;
 }
-.footer .contact-div .textarea {
+body .footer .contact-div .textarea {
   height: 150px;
   width: 600px;
   background: none;
@@ -325,34 +310,34 @@ body {
   color: #898989;
   padding: 15px 0 0 25px;
 }
-.footer .footer-text {
+body .footer .footer-text {
   display: flex;
   align-items: center;
   gap: 70px;
   margin-top: 50px;
 }
-.footer .footer-text .red-bordered-text {
+body .footer .footer-text .red-bordered-text {
   border: 1px solid #DB3138;
   padding: 15px 0px 15px 25px;
   background-color: #DB3138;
   margin-bottom: 40px;
   display: inline-block;
 }
-.footer .icon-wrapper {
+body .footer .icon-wrapper {
   display: flex;
   gap: 20px;
 }
-.footer .icon-wrapper .icon-footer {
+body .footer .icon-wrapper .icon-footer {
   margin-right: 10px;
 }
-.footer .copyright {
+body .footer .copyright {
   display: flex;
   gap: 60px;
   justify-content: space-between;
   border-top: 1px solid #898989;
   padding: 30px 0;
 }
-.footer .copyright .gray-text {
+body .footer .copyright .gray-text {
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -361,7 +346,7 @@ body {
   color: #FFFFFF;
   opacity: 0.5;
 }
-.footer .footer-items-wrapper {
+body .footer .footer-items-wrapper {
   display: flex;
   list-style: none;
   gap: 20px;
